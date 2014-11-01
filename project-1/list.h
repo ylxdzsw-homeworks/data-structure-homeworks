@@ -1,0 +1,10 @@
+void* makelist(int size,void* equal,void* print);
+void* addto(void* v,void* h);
+int delone(void* v,void* h);
+void* retrieve(unsigned int pos,void* h);
+unsigned int find(void* v,void* h);
+unsigned int getlength(void* h);
+void* reverse(void* h);
+void* nextone(void* node);
+void* getvalue(void* node);
+int listprint(void* h);
